@@ -1,10 +1,15 @@
 <?php
 declare(strict_types=1);
 
-define("DB_USER", "udemy_user");
-define("DB_PASS", "udemy_pass");
-define("DB_HOST", "your-rds-endpoint.ap-northeast-1.rds.amazonaws.com");
-define("DB_NAME", "udemy_db");
+// define("DB_USER", "udemy_user");
+// define("DB_PASS", "udemy_pass");
+// define("DB_HOST", "your-rds-endpoint.ap-northeast-1.rds.amazonaws.com");
+// define("DB_NAME", "udemy_db");
+
+define("DB_USER", "root");
+define("DB_PASS", "root");
+define("DB_HOST", "mysql");
+define("DB_NAME", "database");
 
 define("GENDER_LISTS", [
     "男性",
